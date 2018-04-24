@@ -1,0 +1,33 @@
+#include<iostream.h>
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+void main()
+{clrscr();
+    int num[6]={1,2,4,6,3,9};
+    int* p;
+    p = num;
+    *p = 10;
+    p++;
+    *p = 20;
+    p = &num[2];
+    *p = 30;
+    p = num + 3;
+    *p = 4;
+    p = num;
+    *(p+4) = 69;
+    for (int i = 0; i < 5; i++)
+	cout << num[i] << ", ";
+ getch();
+}
+
+
+Verified, compiled and made by the great Yash Verma himself. 
+
+  \|||||/
+ ( ~   ~ )
+@( 0   0 )@
+ (   C   )
+  \ \_/ /
+   |___| 
+    | |
